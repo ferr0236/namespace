@@ -14,7 +14,7 @@ var FERR0236 = {
 
 		div.addEventListener("click", () => {
 			div.style.borderColor = "yellow";
-			div.style.backgroundColor = "green";
+			div.style.backgroundColor = "blue";
 		});
 
 		let boxes = document.querySelector("#boxes");
