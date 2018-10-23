@@ -1,6 +1,6 @@
 var FERR0236 = function init() {
 	let div = document.createElement("div");
-	div.setAttribute("className", "box");
+	div.setAttribute("class", "box");
 	div.textContent = "ferr0236";
 	
 	div.addEventListener("mouseover", () => {
@@ -16,8 +16,8 @@ var FERR0236 = function init() {
 		div.style.backgroundColor = "green";
 	});
 	
-	let boxes = document.querySelector("boxes");
+	let boxes = document.querySelector("#boxes");
 	if (boxes) {
 		boxes.append(div);
 	}
-};
+}
