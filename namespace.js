@@ -13,7 +13,7 @@ var FERR0236 = {
 		});
 
 		div.addEventListener("click", () => {
-			div.style.borderColor = "yellow";
+			div.style.borderColor = "green";
 			div.style.backgroundColor = "blue";
 		});
 
