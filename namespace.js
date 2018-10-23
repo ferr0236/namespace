@@ -1,5 +1,5 @@
 var FERR0236 = {
-	function init() {
+	init: () => {
 		let div = document.createElement("div");
 		div.setAttribute("class", "box");
 		div.textContent = "ferr0236";
@@ -22,4 +22,4 @@ var FERR0236 = {
 			boxes.append(div);
 		}
 	}
-}
+};
