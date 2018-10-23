@@ -10,6 +10,7 @@ var FERR0236 = {
 
 		div.addEventListener("mouseout", () => {
 			div.classList.toggle("highlight");
+			div.removeAttribute("style");
 		});
 
 		div.addEventListener("click", () => {
